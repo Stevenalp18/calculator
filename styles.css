@@ -14,7 +14,7 @@ body{
 .container{
     position: relative;
     top: 20vh;
-    width: 20vw;
+    width: 30vw;
     height: auto;
     margin: auto;
     font-size: 18px;
@@ -37,6 +37,10 @@ body{
     justify-content: space-around;
 }
 
+div.btn:active{
+    transform: translate(-2px, 3px);
+}
+
 div.btn{
     cursor: pointer;
     background-color: #505050;
@@ -46,6 +50,7 @@ div.operator{
     background-color: #FF9500;
 }
 
+/* Media Queries */
 @media (max-width: 450px){
     .container{
         position: fixed;
