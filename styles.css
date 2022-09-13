@@ -78,6 +78,12 @@ div.operator{
         height: 20vw;
         margin: auto;
         text-align: center;
-        padding: 1.8rem;
+        padding: 1.5rem;
+        font-size: 24px;
+        vertical-align: middle;
+    }
+
+    div.btn:active{
+        transform: translate(-2px, 3px);
     }
 }
