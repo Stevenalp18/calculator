@@ -85,5 +85,6 @@ div.operator{
 
     div.btn:active{
         transform: translate(-2px, 3px);
+        -webkit-transfom: translate(-2px, 3px);
     }
 }
