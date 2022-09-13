@@ -41,12 +41,13 @@ div.btn:active{
     transform: translate(-2px, 3px);
 }
 
-div.btn{
+.btn{
     cursor: pointer;
     background-color: #505050;
+    border: 0;
 }
 
-div.operator{
+button.operator{
     background-color: #FF9500;
 }
 
@@ -73,7 +74,7 @@ div.operator{
         row-gap: .6vw;
     }
 
-    div.btn{
+    .btn{
         width: 20vw;
         height: 20vw;
         margin: auto;
@@ -81,9 +82,10 @@ div.operator{
         padding: 1.5rem;
         font-size: 24px;
         vertical-align: middle;
+        background-color: #505050;
     }
 
-    div.btn:active{
+    .btn:active{
         transform: translate(-2px, 3px);
         -webkit-transfom: translate(-2px, 3px);
         -moz-transform: translate(-2px, 3px);
